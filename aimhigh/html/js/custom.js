@@ -51,7 +51,7 @@ $(function () {
   $(window).scroll(function(){
     if ($(window).scrollTop() > 1 && $('.navbar-toggle').is(":hidden")){
       $('.navigation-overlay, .navigation, .nav-solid').addClass("sticky");
-      $('.logo-wrap').addClass("shrink");
+      $('.logo-wrap').addClass("sticky");
     } else {
       $('.navigation-overlay, .navigation, .nav-solid').removeClass("sticky");
       $('.logo-wrap').removeClass("shrink");
