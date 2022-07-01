@@ -1,9 +1,6 @@
 /*------------------------------------------------------------------
 Template Name:  Aim High Technologies - Responisve Landing Page for Company
 Version:        1.0
-Last update:    12/17/2017
-Author:         tabthemes
-URL:            http://www.tabthemes.com/
 -------------------------------------------------------------------*/
 
 $(function () {
@@ -51,7 +48,7 @@ $(function () {
   $(window).scroll(function(){
     if ($(window).scrollTop() > 1 && $('.navbar-toggle').is(":hidden")){
       $('.navigation-overlay, .navigation, .nav-solid').addClass("sticky");
-      $('.logo-wrap').addClass("sticky");
+      $('.logo-wrap').addClass("shrink");
     } else {
       $('.navigation-overlay, .navigation, .nav-solid').removeClass("sticky");
       $('.logo-wrap').removeClass("shrink");
